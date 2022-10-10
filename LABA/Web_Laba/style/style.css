@@ -1,0 +1,144 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    transition: 0.4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+
+header {
+    border-bottom: 2px solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 80px;
+    justify-content: space-between;
+}
+
+header p {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo_img {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.right_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_menu div {
+    display: flex;
+}
+
+.right_menu img {
+    height: 60px;
+    width: 40px;
+    margin: auto;
+    
+}
+
+.right_menu button {
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 0.4s;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.right_menu button:hover {
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.removeOn {
+    display: none;
+}
+
+
+.main {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    transition: .3s;
+}
+
+
+.tables {
+    display: flex;
+}
+
+table {
+    width: 33%;
+    margin-left: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.competition {
+    list-style: none;
+    width: 28%;
+}
+
+.competition li {
+    transition: 0.4s;
+    padding: 10px;
+}
+
+
+#popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+}
+
+.popup_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    padding: 30px 10px;
+}
+
+form {
+    border-radius: 40px;
+    padding: 50px;
+    width: 350px;
+}
+form h2{
+    text-align: center;
+}
+input {
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+button {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label {
+    margin-left: 20%;
+}

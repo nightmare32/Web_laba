@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #popup {
+            background-color: red;
+            padding: 10px;
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Ідентифікатор</h2>
+    <p>Ідентифікатор (названий також "ID селектор") визначає унікальне ім'я елемента, яке використовується для
+        зміни його стилю та звернення до нього через скрипти.</p>
+    <b>Приклад використання:</b>
+    <pre><code>
+        &lt;style&gt;
+        #popup {
+            background-color: red;
+            padding: 10px;
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+        }
+    &lt;/style&gt;
+
+ &lt;div id=&quot;popup&quot; class=&quot;removeOn&quot;&gt;
+        &lt;div class=&quot;popup_body&quot;&gt;
+            &lt;form&gt;
+                &lt;h2&gt;Реєстраційна форма&lt;/h2&gt;
+
+                &lt;label for=&quot;FName&quot;&gt;Ім'я:&lt;/label&gt;&lt;br&gt;
+                &lt;input class=&quot;FName&quot; type=&quot;text&quot; name=&quot;FName&quot; id=&quot;FName&quot;&gt;&lt;br&gt;
+                &lt;label for=&quot;LName&quot;&gt;Прізвище:&lt;/label&gt;&lt;br&gt;
+                &lt;input class=&quot;LName&quot; type=&quot;text&quot; name=&quot;LName&quot; id=&quot;LName&quot;&gt;&lt;br&gt;
+                &lt;label for=&quot;Password&quot;&gt;Пароль:&lt;/label&gt;&lt;br&gt;
+                &lt;input class=&quot;PWord&quot; type=&quot;password&quot; name=&quot;Password&quot; id=&quot;Password&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+                &lt;button type=&quot;submit&quot; id=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+                &lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
+                &lt;button id=&quot;close&quot;&gt;Close&lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </code></pre>
+
+    <div id="popup" class="removeOn">
+        <div class="popup_body">
+            <form>
+                <h2>Реєстраційна форма</h2>
+
+                <label for="FName">Ім'я:</label><br>
+                <input class="FName" type="text" name="FName" id="FName"><br>
+                <label for="LName">Прізвище:</label><br>
+                <input class="LName" type="text" name="LName" id="LName"><br>
+                <label for="Password">Пароль:</label><br>
+                <input class="PWord" type="password" name="Password" id="Password"><br><br>
+
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button id="close">Close</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
